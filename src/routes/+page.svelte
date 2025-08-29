@@ -138,7 +138,7 @@
 		<p>
 			I am an embedded systems engineer by trade, with skills and experience in C, C++, as well as
 			FreeRTOS, basic embedded protocols (SPI, UART, I2C), realtime theory, IoT networking some
-			familiarity with PCB design, embedded automotive and Zephyr.
+			familiarity with PCB design, embedded automotive.
 		</p>
 		<p>
 			I have lots of personal interest in Linux and servers in general. This extends to not only
