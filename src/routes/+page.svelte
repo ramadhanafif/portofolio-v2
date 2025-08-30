@@ -1,6 +1,10 @@
+<script>
+	import { Mail } from '@lucide/svelte';
+</script>
+
 <div class="flex min-h-screen">
 	<!-- Left Sidebar -->
-	<aside class="md:block hidden pt-16 w-64 bg-base-200/40 flex-shrink-0">
+	<aside class="md:block hidden pt-16 w-64 bg-base-200 flex-shrink-0">
 		<div class="fixed mx-4">
 			<!-- Sidebar content -->
 			<ul>
@@ -13,8 +17,10 @@
 	</aside>
 
 	<!-- Main Content -->
-	<main class="flex-1 mx-8 bg-base-100 mt-16 prose">
-		<h1>Muhammad Afif Ramadhan</h1>
+	<main class="flex-1 mx-8 bg-base-100 my-16 prose">
+		<div class="bg-primary text-primary-content/20">
+			<h1>Muhammad Afif Ramadhan</h1>
+		</div>
 
 		<h2 id="about">About Afif</h2>
 		<p>
@@ -33,11 +39,11 @@
 
 		<h3>Previously</h3>
 		<p>
-			At CAD-IT Consultants (ASIA) Pte Ltd (≈2 years) I implemented an authentication module for
-			remote device access and contributed to a real-time indoor positioning system used for asset
-			tracking. Before that I researched visible light communication and FPGA prototyping at the
-			Center of Microelectronics, Bandung Institute of Technology, and I completed contract work on
-			IoT power-monitoring systems at PT Xirka Dama Persada.
+			At CAD-IT Consultants (ASIA) Pte Ltd (&cong; 2 years) I implemented an authentication module
+			for remote device access and contributed to a real-time indoor positioning system used for
+			asset tracking. Before that I researched visible light communication and FPGA prototyping at
+			the Center of Microelectronics, Bandung Institute of Technology, and I completed contract work
+			on IoT power-monitoring systems at PT Xirka Dama Persada.
 		</p>
 
 		<h3>Summary</h3>
@@ -56,7 +62,6 @@
 		<ul>
 			<li>
 				Remote IoT Device Management
-
 				<p>
 					Added IoT protocol LwM2M for remote device management via LTE connection. Devices can now
 					communicate with a centralized server to report its condition, and users can control
@@ -162,6 +167,23 @@
 
 	<!-- Right Sidebar -->
 	<!-- <aside class="w-32 bg-secondary flex-shrink-0">Sidebar content</aside> -->
-
-	<footer></footer>
 </div>
+
+<footer class="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
+	<nav class="grid grid-flow-col gap-4">
+		<a class="link link-hover">About us</a>
+		<a class="link link-hover">Contact</a>
+		<a class="link link-hover">Jobs</a>
+		<a class="link link-hover">Press kit</a>
+	</nav>
+	<nav>
+		<div class="grid grid-flow-col gap-4">
+			<a> <Mail /> </a>
+			<a> github </a>
+			<a> linkedin </a>
+		</div>
+	</nav>
+	<aside>
+		<p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+	</aside>
+</footer>
