@@ -1,5 +1,5 @@
 <script>
-	import { Mail } from '@lucide/svelte';
+	import { Mail, Linkedin, Github } from '@lucide/svelte';
 </script>
 
 <div class="flex min-h-screen">
@@ -18,7 +18,7 @@
 
 	<!-- Main Content -->
 	<main class="flex-1 mx-8 bg-base-100 my-16 prose">
-		<div class="bg-primary text-primary-content/20">
+		<div class="">
 			<h1>Muhammad Afif Ramadhan</h1>
 		</div>
 
@@ -120,7 +120,7 @@
 		<ul>
 			<li>
 				<span class="block">KTH Royal Institute of Technology</span>
-				<small class="text-primary/80">Sweden - class 2024</small>
+				<small class="block text-primary/80">Sweden - class 2024</small>
 				<p>
 					I am currently enrolled master's program for embedded systems, with concentration on
 					embedded software. Expected to graduate in 2026.
@@ -129,7 +129,7 @@
 
 			<li>
 				<span>ITB: Bandung Institute of Technology</span>
-				<small class="text-primary/80">Indonesia - class 2016 - cum laude</small>
+				<small class="block text-primary/80">Indonesia - class 2016 - cum laude</small>
 
 				<p>
 					Majored in Electrical Engineering (cum laude) with a self-directed emphasis on VLSI,
@@ -169,21 +169,28 @@
 	<!-- <aside class="w-32 bg-secondary flex-shrink-0">Sidebar content</aside> -->
 </div>
 
-<footer class="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
-	<nav class="grid grid-flow-col gap-4">
-		<a class="link link-hover">About us</a>
-		<a class="link link-hover">Contact</a>
-		<a class="link link-hover">Jobs</a>
-		<a class="link link-hover">Press kit</a>
-	</nav>
+<footer
+	class="footer footer-horizontal py-8 bg-base-200 text-base-content footer-center p-
+10"
+>
 	<nav>
 		<div class="grid grid-flow-col gap-4">
-			<a> <Mail /> </a>
-			<a> github </a>
-			<a> linkedin </a>
+			<a class="btn btn-square btn-ghost" target="_blank" href="mailto:ramadhanafif@gmail.com">
+				<Mail />
+			</a>
+			<a class="btn btn-square btn-ghost" target="_blank" href="https://github.com/ramadhanafif">
+				<Github />
+			</a>
+			<a
+				class="btn btn-square btn-ghost"
+				target="_blank"
+				href="https://www.linkedin.com/in/muhammad-afif-ramadhan-35232415a/"
+			>
+				<Linkedin />
+			</a>
 		</div>
 	</nav>
 	<aside>
-		<p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+		<p>Copyright © {new Date().getFullYear()} - All rights reserved by Muhammad Afif Ramadhan</p>
 	</aside>
 </footer>
