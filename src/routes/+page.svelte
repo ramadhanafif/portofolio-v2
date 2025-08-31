@@ -4,7 +4,7 @@
 
 <div class="flex min-h-screen">
 	<!-- Left Sidebar -->
-	<aside class="md:block hidden pt-16 w-64 bg-base-200 flex-shrink-0">
+	<aside class="md:block hidden pt-16 w-64 flex-shrink-0">
 		<div class="fixed mx-4">
 			<!-- Sidebar content -->
 			<ul>
@@ -17,7 +17,7 @@
 	</aside>
 
 	<!-- Main Content -->
-	<main class="flex-1 mx-8 bg-base-100 my-16 prose">
+	<main class="flex-1 mx-8 my-16 prose">
 		<div class="">
 			<h1>Muhammad Afif Ramadhan</h1>
 		</div>
@@ -120,7 +120,7 @@
 		<ul>
 			<li>
 				<span class="block">KTH Royal Institute of Technology</span>
-				<small class="block text-primary/80">Sweden - class 2024</small>
+				<small class="block">Sweden - class 2024</small>
 				<p>
 					I am currently enrolled master's program for embedded systems, with concentration on
 					embedded software. Expected to graduate in 2026.
@@ -129,7 +129,7 @@
 
 			<li>
 				<span>ITB: Bandung Institute of Technology</span>
-				<small class="block text-primary/80">Indonesia - class 2016 - cum laude</small>
+				<small class="block">Indonesia - class 2016 - cum laude</small>
 
 				<p>
 					Majored in Electrical Engineering (cum laude) with a self-directed emphasis on VLSI,
@@ -164,25 +164,19 @@
 			more about my work please contact me.
 		</p>
 	</main>
-
-	<!-- Right Sidebar -->
-	<!-- <aside class="w-32 bg-secondary flex-shrink-0">Sidebar content</aside> -->
 </div>
 
-<footer
-	class="footer footer-horizontal py-8 bg-base-200 text-base-content footer-center p-
-10"
->
+<footer class="footer footer-horizontal py-8 footer-center p-10">
 	<nav>
-		<div class="grid grid-flow-col gap-4">
-			<a class="btn btn-square btn-ghost" target="_blank" href="mailto:ramadhanafif@gmail.com">
+		<div class="flex gap-4">
+			<a class="" target="_blank" href="mailto:ramadhanafif@gmail.com">
 				<Mail />
 			</a>
-			<a class="btn btn-square btn-ghost" target="_blank" href="https://github.com/ramadhanafif">
+			<a class="" target="_blank" href="https://github.com/ramadhanafif">
 				<Github />
 			</a>
 			<a
-				class="btn btn-square btn-ghost"
+				class=""
 				target="_blank"
 				href="https://www.linkedin.com/in/muhammad-afif-ramadhan-35232415a/"
 			>
