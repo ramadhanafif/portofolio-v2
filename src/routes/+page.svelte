@@ -3,7 +3,7 @@
 </script>
 
 <div class="m-auto w-full px-8 max-w-4xl">
-	<div class="prose mt-8">
+	<div class="prose mt-8 mx-0 md:mx-4">
 		<h1>Muhammad Afif Ramadhan</h1>
 	</div>
 	<div class="flex min-h-screen">
@@ -23,20 +23,24 @@
 		<!-- Main Content -->
 		<main class="flex-1 my-16 prose">
 			<!-- CTA: mail and linkedin  -->
-			<div class="flex gap-4">
-				<a class="" target="_blank" href="mailto:ramadhanafif+web@gmail.com">
-					<Mail class="inline" /> Mail me!
+			<div class="flex flex-col sm:flex-row gap-4 mb-8">
+				<a
+					class="btn btn-primary bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
+					target="_blank"
+					href="mailto:ramadhanafif+web@gmail.com"
+				>
+					<Mail class="inline mr-4" />Contact Me
 				</a>
 				<a
-					class=""
+					class="btn btn-secondary bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
 					target="_blank"
 					href="https://www.linkedin.com/in/muhammad-afif-ramadhan-35232415a/"
 				>
-					<Linkedin class="inline" /> Linkedin Profile
+					<Linkedin class="inline mr-4" />View LinkedIn Profile
 				</a>
 			</div>
 
-			<h2 id="about">About Afif</h2>
+			<h2 id="about" class="text-2xl font-bold border-l-4 border-blue-600 pl-4 py-1">About Afif</h2>
 			<p>
 				I am a master's student at KTH Royal Institute of Tehcnology in Embedded Systems. I build
 				embedded firmware and the supporting web and backend components that connect sensors to
@@ -44,11 +48,12 @@
 				that let hardware deliver usable data.
 			</p>
 			<p class="border-l-4 border-blue-600 rounded px-4 py-2">
-				Open for opportunities for master thesis related to embedded systems and software in
-				Stockholm and Linköping area.
+				<span class="font-bold mb-4 block">Open for master thesis projects! </span>
+
+				Available for projects in Stockholm and Linköping area
 			</p>
 
-			<h3>Currently</h3>
+			<h3 class="text-xl font-semibold">Currently</h3>
 			<p>
 				I’m pursuing an MSc in Embedded Systems (software track) at KTH Royal Institute of
 				Technology in Stockholm, where I’m studying real-time programming, secure firmware
@@ -56,7 +61,7 @@
 				extend my industry experience in IoT and embedded software.
 			</p>
 
-			<h3>Previously</h3>
+			<h3 class="text-xl font-semibold">Previously</h3>
 			<p>
 				At CAD-IT Consultants (ASIA) Pte Ltd (&cong; 2 years) I implemented an authentication module
 				for remote device access and contributed to a real-time indoor positioning system used for
@@ -65,7 +70,7 @@
 				work on IoT power-monitoring systems at PT Xirka Dama Persada.
 			</p>
 
-			<h3>Summary</h3>
+			<h3 class="text-xl font-semibold">Summary</h3>
 			<p>
 				I have over three years’ experience building embedded firmware. I work across hardware and
 				software, from HAL and drivers to testing and web front-ends to deliver working systems that
@@ -74,12 +79,14 @@
 
 			<hr />
 
-			<h2>More Background</h2>
+			<h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 py-1 mt-8">More Background</h2>
 
-			<h3 id="projects">Notable Projects</h3>
-			<ul class="list-none">
-				<li>
-					<h4>Remote IoT Device Management</h4>
+			<h3 id="projects" class="text-xl font-semibold">Notable Projects</h3>
+			<ul class="list-none space-y-6">
+				<li
+					class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200"
+				>
+					<h4 class="text-lg font-semibold">Remote IoT Device Management</h4>
 					<p>
 						Added IoT protocol LwM2M for remote device management via LTE connection. Devices can
 						now communicate with a centralized server to report its condition, and users can control
@@ -88,8 +95,10 @@
 						success rate in typical scenario from 50% to 100% in normal conditions.
 					</p>
 				</li>
-				<li>
-					<h4>Real-time Location System (RTLS)</h4>
+				<li
+					class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200"
+				>
+					<h4 class="text-lg font-semibold">Real-time Location System (RTLS)</h4>
 					<p>
 						Built an indoor positioning system (custom firmware, backend, and a 3D web UI) to
 						visualize tagged assets for facility monitoring. In internal tests the system achieved a
@@ -97,15 +106,19 @@
 					</p>
 				</li>
 
-				<li>
-					<h4>Custom Authentication Module</h4>
+				<li
+					class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200"
+				>
+					<h4 class="text-lg font-semibold">Custom Authentication Module</h4>
 					<p>
 						Secured device messaging protocol by adding a custom authentication flow for remote
 						device access. Developed unit and integration tests for the authentication routines.
 					</p>
 				</li>
-				<li>
-					<h4>IoT Power Monitoring System</h4>
+				<li
+					class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200"
+				>
+					<h4 class="text-lg font-semibold">IoT Power Monitoring System</h4>
 					<p>
 						Developed an ESP32-based monitor for photovoltaic cells in Xirka Dama Persada. I handled
 						project design and system architecture and implemented the solution together with the
@@ -115,8 +128,10 @@
 					</p>
 				</li>
 
-				<li>
-					<h4>Visible Light Communication (VLC) research</h4>
+				<li
+					class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200"
+				>
+					<h4 class="text-lg font-semibold">Visible Light Communication (VLC) research</h4>
 					<p>
 						Conducted research for transferring data through visible light (such as the lightbulb we
 						use everyday). The research explored ways to improve visible light bandwidth, and we
@@ -127,8 +142,10 @@
 					</p>
 				</li>
 
-				<li>
-					<h4>Hardware Abstraction Layer (HAL)</h4>
+				<li
+					class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200"
+				>
+					<h4 class="text-lg font-semibold">Hardware Abstraction Layer (HAL)</h4>
 					<p>
 						Part-time work at a fabless design house for implementing a HAL for ARM Cortex-M3
 						devices. Implemented HAL and drivers (GPIO, I2C, SPI, timers) for ARM Cortex-M3 in
@@ -137,7 +154,9 @@
 				</li>
 			</ul>
 
-			<h2 id="education">Education</h2>
+			<h2 id="education" class="text-2xl font-bold border-l-4 border-blue-600 pl-4 py-1">
+				Education
+			</h2>
 			<ul>
 				<li>
 					<span class="block">KTH Royal Institute of Technology</span>
@@ -159,7 +178,9 @@
 				</li>
 			</ul>
 
-			<h2 id="about-software">About Software and Programming</h2>
+			<h2 id="about-software" class="text-2xl font-bold border-l-4 border-blue-600 pl-4 py-1">
+				About Software and Programming
+			</h2>
 			<p>I like programming in and building meaningful systems!</p>
 			<p>
 				I am an embedded systems engineer by trade, with skills and experience in C, C++, as well as
