@@ -4,9 +4,12 @@
 
 <div class="m-auto w-full px-8 max-w-6xl">
 	<div class="prose mt-8 mx-0 md:mx-4">
-		<h1 class="border-b-4 border-blue-600 inline mb-4 pb-2">Muhammad Afif Ramadhan</h1>
-		<span class="pt-8 absolute left-0 w-screen block border-b border-gray-200"></span>
+		<h1 class="border-b-4 border-blue-600 block md:inline mb-4 pb-2">Muhammad Afif Ramadhan</h1>
+		<!-- <span class="pt-8 absolute left-0 w-screen block border-b border-gray-200"></span> -->
 	</div>
+</div>
+
+<div class="m-auto w-full px-8 max-w-6xl">
 	<div class="flex min-h-screen">
 		<!-- Left Sidebar -->
 		<aside class="md:block hidden pt-16 w-64 flex-shrink-0">
@@ -16,28 +19,28 @@
 					<li>
 						<a
 							href="#about"
-							class="block text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
+							class="text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
 							><Code class="mr-2" size="18" />About Me</a
 						>
 					</li>
 					<li>
 						<a
 							href="#projects"
-							class="block text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
+							class="text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
 							><Briefcase class="mr-2" size="18" />Notable Projects</a
 						>
 					</li>
 					<li>
 						<a
 							href="#education"
-							class="block text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
+							class="text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
 							><GraduationCap class="mr-2" size="18" />Education</a
 						>
 					</li>
 					<li>
 						<a
 							href="#about-software"
-							class="block text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
+							class="text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
 							><Terminal class="mr-2" size="18" />About Software</a
 						>
 					</li>
@@ -66,7 +69,7 @@
 				<a
 					class="btn btn-secondary bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg border border-gray-300"
 					target="_blank"
-					href="https://github.com/your-github-profile"
+					href="https://github.com/ramadhanafif"
 				>
 					<Github class="inline mr-4" />View GitHub Profile
 				</a>
@@ -157,7 +160,7 @@
 					</div>
 
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
 					>
 						<h4 class="text-lg font-semibold mb-2">Custom Authentication Module</h4>
 						<p>
@@ -166,7 +169,7 @@
 						</p>
 					</div>
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
 					>
 						<h4 class="text-lg font-semibold mb-2">IoT Power Monitoring System</h4>
 						<p class="mb-3">Developed an IoT power monitor for photovoltaic cells.</p>
@@ -178,7 +181,7 @@
 					</div>
 
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md md:col-span-2"
+						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md md:col-span-2"
 					>
 						<h4 class="text-lg font-semibold mb-2">Visible Light Communication (VLC) research</h4>
 						<p class="mb-3">
@@ -203,7 +206,7 @@
 					</div>
 
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
 					>
 						<h4 class="text-lg font-semibold mb-2">Hardware Abstraction Layer (HAL)</h4>
 						<p>
@@ -220,7 +223,7 @@
 				<h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 py-1 mb-8">Education</h2>
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
 					>
 						<span class="block text-lg font-semibold">KTH Royal Institute of Technology</span>
 						<small class="block text-xs text-black/50 mb-3">Sweden - Class 2024</small>
@@ -230,7 +233,7 @@
 						</p>
 					</div>
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
 					>
 						<span class="block text-lg font-semibold">ITB: Bandung Institute of Technology</span>
 						<small class="block text-xs text-black/50 mb-3"
