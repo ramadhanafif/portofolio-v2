@@ -1,38 +1,88 @@
-# sv
+# Muhammad Afif Ramadhan - Portfolio Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A portfolio website built with SvelteKit, for showcasing my work as an embedded systems and software engineer.
 
-## Creating a project
+## About
 
-If you're seeing this, you've probably already done this step. Congrats!
+This is the source code for my personal portfolio website. The website itself is also part of my portfolio.
 
-```sh
-# create a new project in the current directory
-npx sv create
+The website is built with these web technologies:
 
-# create a new project in my-app
-npx sv create my-app
+- [SvelteKit](https://kit.svelte.dev/) as the web framework, with Svelte5
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+- [Lucide Icons](https://lucide.dev/) for icons
+- [Docker](https://www.docker.com/) for containerization
+
+## Development
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+
+### Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ramadhanafif/portfolio-v2.git
+   cd portfolio-v2
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   The website will be available at `http://localhost:5173`
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run check` - Run type checking
+- `npm run lint` - Check code formatting
+- `npm run format` - Fix code formatting
+
+## Deployment
+
+### Docker Deployment
+
+The project includes a Dockerfile for containerized deployment:
+
+```bash
+# Build the Docker image
+docker build -t portfolio .
+
+# Run the container
+docker run -p 3000:3000 portfolio
 ```
 
-## Developing
+The application will be accessible at `http://localhost:3000`
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Manual Deployment
 
-```sh
-npm run dev
+1. Build the project:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+   ```bash
+   npm run build
+   ```
 
-## Building
+2. The output will be in the `build` directory, which can be run by:
 
-To create a production version of your app:
+   ```bash
+   node build
+   ```
 
-```sh
-npm run build
-```
+## Contact
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- Email: [ramadhanafif+gh@gmail.com](mailto:ramadhanafif+gh@gmail.com)
+- LinkedIn: [Muhammad Afif Ramadhan](https://www.linkedin.com/in/muhammad-afif-ramadhan-35232415a/)
+- GitHub: [ramadhanafif](https://github.com/ramadhanafif)
