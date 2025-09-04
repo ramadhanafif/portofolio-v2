@@ -75,23 +75,27 @@
 				class="mb-8 rounded-xl bg-white p-6 shadow-md transition-all duration-300 hover:shadow-lg"
 			>
 				<h2 class="mb-4 border-l-4 border-blue-600 py-1 pl-4 text-2xl font-bold">About Afif</h2>
-				<p class="mb-4 text-lg font-bold">
-					I build embedded firmware that delivers more than just data.
+				<p class="mb-4 text-lg">
+					I am a master's student at KTH Royal Institute of Technology in Embedded Systems. I build
+					embedded firmware and the supporting web and backend components that connect sensors to
+					dashboards and APIs. My work focuses on firmware, device drivers, and the integration
+					points that let hardware deliver usable data.
 				</p>
-
-				<div class="mb-6 rounded-r border-l-4 border-blue-600 bg-blue-50 px-6 py-4">
-					<span class="mb-2 block font-bold text-blue-800">Open for master thesis projects! </span>
-					<p class="text-gray-700">Available for projects in Stockholm and Linköping area</p>
+				<div class="my-6 rounded-r border-l-4 border-blue-600 bg-blue-50 px-6 py-4">
+					<span class="my-6 mb-2 block text-xl font-bold text-blue-800"
+						>Open for master thesis projects!
+					</span>
+					<p class="text-gray-700">Available for projects in Stockholm and Linköping area!</p>
 				</div>
 
-				<div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
+				<div class="mt-8 flex flex-col gap-6">
 					<div class="rounded-lg border border-blue-100 bg-blue-50 p-6">
 						<h3 class="mb-3 text-xl font-semibold text-blue-800">Currently</h3>
 						<p>
-							I'm pursuing an MSc in Embedded Systems (software track) at KTH Royal Institute of
-							Technology in Stockholm, where I'm studying real-time programming, secure firmware
-							techniques, and system integration. I'm applying coursework to practical projects that
-							extend my industry experience in IoT and embedded software.
+							I am pursuing an MSc in Embedded Systems (software track) at KTH Royal Institute of
+							Technology in Stockholm, where I am studying real-time programming, secure firmware
+							techniques, and system integration. I am applying coursework to practical projects
+							that extend my industry experience in IoT and embedded software.
 						</p>
 					</div>
 					<div class="rounded-lg border border-gray-100 bg-gray-50 p-6">
@@ -105,15 +109,15 @@
 							Dama Persada.
 						</p>
 					</div>
-				</div>
 
-				<div class="mt-8">
-					<h3 class="mb-3 text-xl font-semibold">Summary</h3>
-					<p class="rounded-lg border border-gray-100 bg-gray-50 p-6">
-						I have over three years' experience building embedded firmware. I work across hardware
-						and software, from HAL and drivers to testing and web front-ends to deliver working
-						systems that meet performance and reliability constraints.
-					</p>
+					<div class="rounded-lg border border-gray-100 bg-gray-50 p-6">
+						<h3 class="mb-3 text-xl font-semibold">Summary</h3>
+						<p>
+							I have over three years' experience building embedded firmware. I work across hardware
+							and software, from HAL and drivers to testing and web front-ends to deliver working
+							systems that meet performance and reliability constraints.
+						</p>
+					</div>
 				</div>
 			</section>
 
@@ -126,7 +130,7 @@
 
 				<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 					<div
-						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all transition-colors duration-200 duration-300 hover:border-blue-600 hover:shadow-md"
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-200 hover:border-blue-600 hover:shadow-md"
 					>
 						<h4 class="mb-2 text-lg font-semibold">Remote IoT Device Management</h4>
 						<p class="mb-3">
@@ -140,7 +144,7 @@
 						</p>
 					</div>
 					<div
-						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all transition-colors duration-200 duration-300 hover:border-blue-600 hover:shadow-md"
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-200 hover:border-blue-600 hover:shadow-md"
 					>
 						<h4 class="mb-2 text-lg font-semibold">Real-time Location System (RTLS)</h4>
 						<p class="mb-3">
@@ -155,15 +159,6 @@
 					<div
 						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-300 hover:border-blue-600 hover:shadow-md"
 					>
-						<h4 class="mb-2 text-lg font-semibold">Custom Authentication Module</h4>
-						<p>
-							Secured device messaging protocol by adding a custom authentication flow for remote
-							device access.
-						</p>
-					</div>
-					<div
-						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-300 hover:border-blue-600 hover:shadow-md"
-					>
 						<h4 class="mb-2 text-lg font-semibold">IoT Power Monitoring System</h4>
 						<p class="mb-3">Developed an IoT power monitor for photovoltaic cells.</p>
 						<p>
@@ -174,7 +169,7 @@
 					</div>
 
 					<div
-						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-300 hover:border-blue-600 hover:shadow-md md:col-span-2"
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-300 hover:border-blue-600 hover:shadow-md"
 					>
 						<h4 class="mb-2 text-lg font-semibold">Visible Light Communication (VLC) research</h4>
 						<p class="mb-3">
@@ -195,6 +190,16 @@
 								href="https://doi.org/10.1109/ISPACS51563.2021.9651040"
 								class="text-blue-600 hover:underline">here</a
 							>
+						</p>
+					</div>
+
+					<div
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-300 hover:border-blue-600 hover:shadow-md"
+					>
+						<h4 class="mb-2 text-lg font-semibold">Custom Authentication Module</h4>
+						<p>
+							Secured device messaging protocol by adding a custom authentication flow for remote
+							device access.
 						</p>
 					</div>
 

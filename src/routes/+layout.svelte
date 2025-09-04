@@ -17,22 +17,27 @@
 	/>
 </svelte:head>
 
-<div class="m-auto w-full px-8 max-w-6xl">
-	<div class="prose mt-8 mx-0 md:mx-4">
-		<h1 class="border-b-4 border-blue-600 block md:inline mb-4 pb-2">Muhammad Afif Ramadhan</h1>
-		<!-- <span class="pt-8 absolute left-0 w-screen block border-b border-gray-200"></span> -->
+<div class="m-auto w-full max-w-6xl px-8">
+	<div class="group relative mx-0 prose mt-8 overflow-hidden md:mx-4">
+		<h1 class="relative z-10 mb-0 block md:inline">Muhammad Afif Ramadhan</h1>
+		<span
+			class="absolute bottom-0 left-0 h-1 w-0 bg-blue-700 transition-all delay-75 duration-500 group-hover:w-full"
+		></span>
+		<small class="mb-4 block">I build secure and useful Embedded Systems</small>
 	</div>
 </div>
 
+<span class="my-4 block h-0 w-full min-w-screen border-b-1 border-gray-300 shadow-lg"></span>
+
 {@render children?.()}
 
-<footer class="py-8 px-4 border-t border-gray-200 mt-12 bg-white">
-	<div class="max-w-4xl mx-auto">
-		<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<footer class="mt-12 border-t border-gray-200 bg-white px-4 py-8">
+	<div class="mx-auto max-w-4xl">
+		<div class="flex flex-col items-center justify-between gap-6 md:flex-row">
 			<nav>
 				<div class="flex gap-4">
 					<a
-						class="text-gray-600 hover:text-blue-600 transition-colors duration-300"
+						class="text-gray-600 transition-colors duration-300 hover:text-blue-600"
 						target="_blank"
 						href="mailto:ramadhanafif+web@gmail.com"
 						aria-label="Email"
@@ -40,7 +45,7 @@
 						<Mail size={24} />
 					</a>
 					<a
-						class="text-gray-600 hover:text-blue-600 transition-colors duration-300"
+						class="text-gray-600 transition-colors duration-300 hover:text-blue-600"
 						target="_blank"
 						href="https://github.com/ramadhanafif"
 						aria-label="GitHub"
@@ -48,7 +53,7 @@
 						<Github size={24} />
 					</a>
 					<a
-						class="text-gray-600 hover:text-blue-600 transition-colors duration-300"
+						class="text-gray-600 transition-colors duration-300 hover:text-blue-600"
 						target="_blank"
 						href="https://www.linkedin.com/in/muhammad-afif-ramadhan-35232415a/"
 						aria-label="LinkedIn"
@@ -57,7 +62,7 @@
 					</a>
 				</div>
 			</nav>
-			<aside class="text-center md:text-right text-gray-500 text-sm">
+			<aside class="text-center text-sm text-gray-500 md:text-right">
 				<p>Made by Muhammad Afif Ramadhan</p>
 			</aside>
 		</div>
