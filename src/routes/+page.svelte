@@ -1,46 +1,41 @@
 <script>
 	import { Mail, Linkedin, Github, GraduationCap, Briefcase, Code, Terminal } from '@lucide/svelte';
+
+	const bgurl = '/electronics.jpg';
 </script>
 
-<div class="m-auto w-full px-8 max-w-6xl">
-	<div class="prose mt-8 mx-0 md:mx-4">
-		<h1 class="border-b-4 border-blue-600 block md:inline mb-4 pb-2">Muhammad Afif Ramadhan</h1>
-		<!-- <span class="pt-8 absolute left-0 w-screen block border-b border-gray-200"></span> -->
-	</div>
-</div>
-
-<div class="m-auto w-full px-8 max-w-6xl">
+<div class="m-auto mt-4 w-full max-w-6xl px-8">
 	<div class="flex min-h-screen">
 		<!-- Left Sidebar -->
-		<aside class="md:block hidden pt-16 w-64 flex-shrink-0">
+		<aside class="hidden w-64 flex-shrink-0 pt-16 md:block">
 			<div class="fixed mx-4">
 				<!-- Sidebar content -->
 				<ul class="space-y-4">
 					<li>
 						<a
 							href="#about"
-							class="text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
+							class="flex items-center text-lg font-medium transition-colors duration-200 hover:text-blue-600"
 							><Code class="mr-2" size="18" />About Me</a
 						>
 					</li>
 					<li>
 						<a
 							href="#projects"
-							class="text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
+							class="flex items-center text-lg font-medium transition-colors duration-200 hover:text-blue-600"
 							><Briefcase class="mr-2" size="18" />Notable Projects</a
 						>
 					</li>
 					<li>
 						<a
 							href="#education"
-							class="text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
+							class="flex items-center text-lg font-medium transition-colors duration-200 hover:text-blue-600"
 							><GraduationCap class="mr-2" size="18" />Education</a
 						>
 					</li>
 					<li>
 						<a
 							href="#about-software"
-							class="text-lg font-medium hover:text-blue-600 transition-colors duration-200 flex items-center"
+							class="flex items-center text-lg font-medium transition-colors duration-200 hover:text-blue-600"
 							><Terminal class="mr-2" size="18" />About Software</a
 						>
 					</li>
@@ -49,51 +44,49 @@
 		</aside>
 
 		<!-- Main Content -->
-		<main class="flex-1 my-16 prose max-w-none">
+		<main class="my-16 prose max-w-none flex-1">
 			<!-- CTA: mail and linkedin  -->
-			<div class="flex flex-col sm:flex-row gap-4 mb-12">
+			<div class="bg-[url(/electronics.jpg) mb-12 flex flex-col gap-4 sm:flex-row">
 				<a
-					class="btn btn-primary bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg"
+					class="btn btn-primary transform rounded-lg bg-blue-600 px-6 py-3 font-bold text-white shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:bg-blue-700"
 					target="_blank"
 					href="mailto:ramadhanafif+web@gmail.com"
 				>
-					<Mail class="inline mr-4" />Contact Me
+					<Mail class="mr-4 inline" />Contact Me
 				</a>
 				<a
-					class="btn btn-secondary bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg"
+					class="btn btn-secondary transform rounded-lg bg-gray-800 px-6 py-3 font-bold text-white shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:bg-gray-900"
 					target="_blank"
 					href="https://www.linkedin.com/in/muhammad-afif-ramadhan-35232415a/"
 				>
-					<Linkedin class="inline mr-4" />View LinkedIn Profile
+					<Linkedin class="mr-4 inline" />View LinkedIn Profile
 				</a>
 				<a
-					class="btn btn-secondary bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg border border-gray-300"
+					class="btn btn-secondary transform rounded-lg border border-gray-300 bg-gray-100 px-6 py-3 font-bold text-gray-800 shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:bg-gray-200"
 					target="_blank"
 					href="https://github.com/ramadhanafif"
 				>
-					<Github class="inline mr-4" />View GitHub Profile
+					<Github class="mr-4 inline" />View GitHub Profile
 				</a>
 			</div>
 
 			<section
 				id="about"
-				class="bg-white rounded-xl shadow-md p-6 mb-8 transition-all duration-300 hover:shadow-lg"
+				class="mb-8 rounded-xl bg-white p-6 shadow-md transition-all duration-300 hover:shadow-lg"
 			>
-				<h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 py-1 mb-4">About Afif</h2>
-				<p class="text-lg mb-4">
-					I am a master's student at KTH Royal Institute of Technology in Embedded Systems. I build
-					embedded firmware and the supporting web and backend components that connect sensors to
-					dashboards and APIs. My work focuses on firmware, device drivers, and the integration
-					points that let hardware deliver usable data.
+				<h2 class="mb-4 border-l-4 border-blue-600 py-1 pl-4 text-2xl font-bold">About Afif</h2>
+				<p class="mb-4 text-lg font-bold">
+					I build embedded firmware that delivers more than just data.
 				</p>
-				<div class="border-l-4 border-blue-600 bg-blue-50 rounded-r px-6 py-4 mb-6">
-					<span class="font-bold mb-2 block text-blue-800">Open for master thesis projects! </span>
+
+				<div class="mb-6 rounded-r border-l-4 border-blue-600 bg-blue-50 px-6 py-4">
+					<span class="mb-2 block font-bold text-blue-800">Open for master thesis projects! </span>
 					<p class="text-gray-700">Available for projects in Stockholm and Linköping area</p>
 				</div>
 
-				<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-					<div class="bg-blue-50 rounded-lg p-6 border border-blue-100">
-						<h3 class="text-xl font-semibold text-blue-800 mb-3">Currently</h3>
+				<div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2">
+					<div class="rounded-lg border border-blue-100 bg-blue-50 p-6">
+						<h3 class="mb-3 text-xl font-semibold text-blue-800">Currently</h3>
 						<p>
 							I'm pursuing an MSc in Embedded Systems (software track) at KTH Royal Institute of
 							Technology in Stockholm, where I'm studying real-time programming, secure firmware
@@ -101,8 +94,8 @@
 							extend my industry experience in IoT and embedded software.
 						</p>
 					</div>
-					<div class="bg-gray-50 rounded-lg p-6 border border-gray-100">
-						<h3 class="text-xl font-semibold text-gray-800 mb-3">Previously</h3>
+					<div class="rounded-lg border border-gray-100 bg-gray-50 p-6">
+						<h3 class="mb-3 text-xl font-semibold text-gray-800">Previously</h3>
 						<p>
 							At CAD-IT Consultants (ASIA) Pte Ltd (&cong; 2 years) I implemented an authentication
 							module for remote device access and contributed to a real-time indoor positioning
@@ -115,8 +108,8 @@
 				</div>
 
 				<div class="mt-8">
-					<h3 class="text-xl font-semibold mb-3">Summary</h3>
-					<p class="bg-gray-50 rounded-lg p-6 border border-gray-100">
+					<h3 class="mb-3 text-xl font-semibold">Summary</h3>
+					<p class="rounded-lg border border-gray-100 bg-gray-50 p-6">
 						I have over three years' experience building embedded firmware. I work across hardware
 						and software, from HAL and drivers to testing and web front-ends to deliver working
 						systems that meet performance and reliability constraints.
@@ -127,15 +120,15 @@
 			<hr class="my-12 border-gray-200" />
 
 			<section id="projects" class="mb-12">
-				<h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 py-1 mb-8">
+				<h2 class="mb-8 border-l-4 border-blue-600 py-1 pl-4 text-2xl font-bold">
 					Notable Projects
 				</h2>
 
-				<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+				<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all transition-colors duration-200 duration-300 hover:border-blue-600 hover:shadow-md"
 					>
-						<h4 class="text-lg font-semibold mb-2">Remote IoT Device Management</h4>
+						<h4 class="mb-2 text-lg font-semibold">Remote IoT Device Management</h4>
 						<p class="mb-3">
 							Added IoT protocol LwM2M for remote device management via LTE connection.
 						</p>
@@ -147,9 +140,9 @@
 						</p>
 					</div>
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 transition-colors duration-200 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all transition-colors duration-200 duration-300 hover:border-blue-600 hover:shadow-md"
 					>
-						<h4 class="text-lg font-semibold mb-2">Real-time Location System (RTLS)</h4>
+						<h4 class="mb-2 text-lg font-semibold">Real-time Location System (RTLS)</h4>
 						<p class="mb-3">
 							Built an indoor positioning system to visualize tagged assets for facility monitoring.
 						</p>
@@ -160,18 +153,18 @@
 					</div>
 
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-300 hover:border-blue-600 hover:shadow-md"
 					>
-						<h4 class="text-lg font-semibold mb-2">Custom Authentication Module</h4>
+						<h4 class="mb-2 text-lg font-semibold">Custom Authentication Module</h4>
 						<p>
 							Secured device messaging protocol by adding a custom authentication flow for remote
 							device access.
 						</p>
 					</div>
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-300 hover:border-blue-600 hover:shadow-md"
 					>
-						<h4 class="text-lg font-semibold mb-2">IoT Power Monitoring System</h4>
+						<h4 class="mb-2 text-lg font-semibold">IoT Power Monitoring System</h4>
 						<p class="mb-3">Developed an IoT power monitor for photovoltaic cells.</p>
 						<p>
 							I handled project design, system architecture and implemented the solution. We managed
@@ -181,9 +174,9 @@
 					</div>
 
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md md:col-span-2"
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-300 hover:border-blue-600 hover:shadow-md md:col-span-2"
 					>
-						<h4 class="text-lg font-semibold mb-2">Visible Light Communication (VLC) research</h4>
+						<h4 class="mb-2 text-lg font-semibold">Visible Light Communication (VLC) research</h4>
 						<p class="mb-3">
 							Conducted research for transferring data through visible light (using simple and cheap
 							LED).
@@ -206,9 +199,9 @@
 					</div>
 
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-300 hover:border-blue-600 hover:shadow-md"
 					>
-						<h4 class="text-lg font-semibold mb-2">Hardware Abstraction Layer (HAL)</h4>
+						<h4 class="mb-2 text-lg font-semibold">Hardware Abstraction Layer (HAL)</h4>
 						<p>
 							Implemented HAL for ARM Cortex-M3 devices for PT Xirka, a fabless IC design house.
 						</p>
@@ -220,23 +213,23 @@
 			</section>
 
 			<section id="education" class="mb-12">
-				<h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 py-1 mb-8">Education</h2>
-				<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+				<h2 class="mb-8 border-l-4 border-blue-600 py-1 pl-4 text-2xl font-bold">Education</h2>
+				<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-300 hover:border-blue-600 hover:shadow-md"
 					>
 						<span class="block text-lg font-semibold">KTH Royal Institute of Technology</span>
-						<small class="block text-xs text-black/50 mb-3">Sweden - Class 2024</small>
+						<small class="mb-3 block text-xs text-black/50">Sweden - Class 2024</small>
 						<p>
 							Enrolled in master's program for embedded systems, under the embedded software track.
 							Expected to graduate in 2026.
 						</p>
 					</div>
 					<div
-						class="border-l-4 border-blue-100 hover:border-blue-600 pl-4 bg-white rounded-r-lg shadow-sm p-6 transition-all duration-300 hover:shadow-md"
+						class="rounded-r-lg border-l-4 border-blue-100 bg-white p-6 pl-4 shadow-sm transition-all duration-300 hover:border-blue-600 hover:shadow-md"
 					>
 						<span class="block text-lg font-semibold">ITB: Bandung Institute of Technology</span>
-						<small class="block text-xs text-black/50 mb-3"
+						<small class="mb-3 block text-xs text-black/50"
 							>Indonesia - Class 2016 - Cum Laude</small
 						>
 						<p>
@@ -248,13 +241,13 @@
 			</section>
 
 			<section id="about-software">
-				<h2 class="text-2xl font-bold border-l-4 border-blue-600 pl-4 py-1 mb-6">
+				<h2 class="mb-6 border-l-4 border-blue-600 py-1 pl-4 text-2xl font-bold">
 					About Software and Programming
 				</h2>
 				<div
-					class="bg-white rounded-xl shadow-md p-6 mb-8 transition-all duration-300 hover:shadow-lg"
+					class="mb-8 rounded-xl bg-white p-6 shadow-md transition-all duration-300 hover:shadow-lg"
 				>
-					<p class="text-lg mb-4">I like programming and building meaningful systems!</p>
+					<p class="mb-4 text-lg">I like programming and building meaningful systems!</p>
 					<p class="mb-4">
 						I am an embedded systems engineer by trade, with skills and experience in C, C++, as
 						well as FreeRTOS, basic embedded protocols (SPI, UART, I2C), realtime theory, IoT

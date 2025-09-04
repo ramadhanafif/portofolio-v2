@@ -17,6 +17,13 @@
 	/>
 </svelte:head>
 
+<div class="m-auto w-full px-8 max-w-6xl">
+	<div class="prose mt-8 mx-0 md:mx-4">
+		<h1 class="border-b-4 border-blue-600 block md:inline mb-4 pb-2">Muhammad Afif Ramadhan</h1>
+		<!-- <span class="pt-8 absolute left-0 w-screen block border-b border-gray-200"></span> -->
+	</div>
+</div>
+
 {@render children?.()}
 
 <footer class="py-8 px-4 border-t border-gray-200 mt-12 bg-white">
