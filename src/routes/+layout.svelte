@@ -15,6 +15,11 @@
      Roboto:wght@400;700&display=swap"
 		rel="stylesheet"
 	/>
+	<script
+		data-goatcounter="https://stats.afiframadhan.dev/count"
+		async
+		src="//stats.afiframadhan.dev/count.js"
+	></script>
 </svelte:head>
 
 <div class="m-auto w-full max-w-6xl px-8">
