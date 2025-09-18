@@ -6,18 +6,14 @@
 </script>
 
 <svelte:head>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=
-     Roboto:wght@400;700&display=swap"
-		rel="stylesheet"
-	/>
 	<script
 		data-goatcounter="https://stats.afiframadhan.dev/count"
 		async
 		src="//stats.afiframadhan.dev/count.js"
 	></script>
+	<noscript>
+		<img src="https://stats.afiframadhan.dev/count?p=/" />
+	</noscript>
 </svelte:head>
 
 <div class="m-auto w-full max-w-6xl px-8">
