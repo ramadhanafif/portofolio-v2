@@ -17,13 +17,15 @@
 </svelte:head>
 
 <div class="m-auto w-full max-w-6xl px-8">
-	<div class="group relative mx-0 prose mt-8 overflow-hidden md:mx-4">
-		<h1 class="relative z-10 mb-0 block md:inline">Muhammad Afif Ramadhan</h1>
+	<a href="/" class="group relative mx-0 prose mt-8 block overflow-hidden md:mx-4">
+		<h1 class="relative z-10 mb-0 block transition-all hover:text-blue-900 md:inline">
+			Muhammad Afif Ramadhan
+		</h1>
 		<span
 			class="absolute bottom-0 left-0 h-1 w-0 bg-blue-700 transition-all delay-75 duration-500 group-hover:w-full"
 		></span>
 		<small class="mb-4 block">I build secure and useful Embedded Systems</small>
-	</div>
+	</a>
 </div>
 
 <span class="my-4 block h-0 w-full min-w-screen border-b-1 border-gray-300 shadow-lg"></span>
