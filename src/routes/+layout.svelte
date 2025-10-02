@@ -7,13 +7,10 @@
 
 <svelte:head>
 	<script
-		data-goatcounter="https://stats.afiframadhan.dev/count"
-		async
-		src="//stats.afiframadhan.dev/count.js"
+		defer
+		src="https://stats.afiframadhan.dev/script.js"
+		data-website-id="2850d8b1-1674-4b88-93e4-1cb2f13426d0"
 	></script>
-	<noscript>
-		<img src="https://stats.afiframadhan.dev/count?p=/" alt="stats" />
-	</noscript>
 </svelte:head>
 
 <div class="m-auto w-full max-w-6xl px-8">
@@ -42,6 +39,7 @@
 						target="_blank"
 						href="mailto:ramadhanafif+web@gmail.com"
 						aria-label="Email"
+						data-umami-event="mail-link"
 					>
 						<Mail size={24} />
 					</a>
@@ -50,6 +48,7 @@
 						target="_blank"
 						href="https://github.com/ramadhanafif"
 						aria-label="GitHub"
+						data-umami-event="github-link"
 					>
 						<Github size={24} />
 					</a>
@@ -58,6 +57,7 @@
 						target="_blank"
 						href="https://www.linkedin.com/in/muhammad-afif-ramadhan-35232415a/"
 						aria-label="LinkedIn"
+						data-umami-event="linkedin-link"
 					>
 						<Linkedin size={24} />
 					</a>

@@ -17,6 +17,7 @@
 							href="/MuhammadAfifRamadhan.pdf"
 							download="Muhammad Afif Ramadhan - Resume.pdf"
 							class="inline-flex transform items-center rounded-lg bg-blue-600 px-6 py-3 font-bold text-white transition duration-300 hover:scale-105 hover:bg-blue-700"
+							data-umami-event="resume-link"
 						>
 							<i class="fas fa-download mr-2"></i> Download Resume (PDF)
 						</a>
@@ -98,6 +99,7 @@
 						<a
 							href="mailto:ramadhanafif+web@gmail.com"
 							class="flex flex-col items-center rounded-xl bg-white p-6 text-center shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+							data-umami-event="mail-link"
 						>
 							<div
 								class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-blue-600"
@@ -111,6 +113,7 @@
 							href="https://www.linkedin.com/in/muhammad-afif-ramadhan-35232415a/"
 							target="_blank"
 							class="flex flex-col items-center rounded-xl bg-white p-6 text-center shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+							data-umami-event="linkedin-link"
 						>
 							<div
 								class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-blue-600"
@@ -124,6 +127,7 @@
 							href="https://github.com/ramadhanafif"
 							target="_blank"
 							class="flex flex-col items-center rounded-xl bg-white p-6 text-center shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+							data-umami-event="github-link"
 						>
 							<div
 								class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-blue-600"

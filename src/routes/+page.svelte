@@ -14,6 +14,7 @@
 					<li>
 						<a
 							href="#about"
+							data-umami-event="about-link"
 							class="flex items-center text-lg font-medium transition-colors duration-200 hover:text-blue-600"
 							><Code class="mr-2" size="18" />About Me</a
 						>
@@ -21,6 +22,7 @@
 					<li>
 						<a
 							href="#projects"
+							data-umami-event="projects-link"
 							class="flex items-center text-lg font-medium transition-colors duration-200 hover:text-blue-600"
 							><Briefcase class="mr-2" size="18" />Notable Projects</a
 						>
@@ -28,12 +30,14 @@
 					<li>
 						<a
 							href="#education"
+							data-umami-event="education-link"
 							class="flex items-center text-lg font-medium transition-colors duration-200 hover:text-blue-600"
 							><GraduationCap class="mr-2" size="18" />Education</a
 						>
 					</li>
 					<li>
 						<a
+							data-umami-event="mysoftware-link"
 							href="#about-software"
 							class="flex items-center text-lg font-medium transition-colors duration-200 hover:text-blue-600"
 							><Terminal class="mr-2" size="18" />About Software</a
@@ -51,6 +55,7 @@
 					class="btn btn-primary transform rounded-lg bg-blue-600 px-6 py-3 font-bold text-white shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:bg-blue-700"
 					target="_blank"
 					href="mailto:ramadhanafif+web@gmail.com"
+					data-umami-event="mail-link"
 				>
 					<Mail class="mr-4 inline" />Contact Me
 				</a>
@@ -58,6 +63,7 @@
 					class="btn btn-secondary transform rounded-lg bg-gray-800 px-6 py-3 font-bold text-white shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:bg-gray-900"
 					target="_blank"
 					href="https://www.linkedin.com/in/muhammad-afif-ramadhan-35232415a/"
+					data-umami-event="linkedin-link"
 				>
 					<Linkedin class="mr-4 inline" />View LinkedIn Profile
 				</a>
@@ -65,6 +71,7 @@
 					class="btn btn-secondary transform rounded-lg border border-gray-300 bg-gray-100 px-6 py-3 font-bold text-gray-800 shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:bg-gray-200"
 					target="_blank"
 					href="https://github.com/ramadhanafif"
+					data-umami-event="github-link"
 				>
 					<Github class="mr-4 inline" />View GitHub Profile
 				</a>
