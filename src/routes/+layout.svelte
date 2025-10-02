@@ -12,7 +12,7 @@
 		src="//stats.afiframadhan.dev/count.js"
 	></script>
 	<noscript>
-		<img src="https://stats.afiframadhan.dev/count?p=/" />
+		<img src="https://stats.afiframadhan.dev/count?p=/" alt="stats" />
 	</noscript>
 </svelte:head>
 
